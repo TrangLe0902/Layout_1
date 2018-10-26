@@ -1,0 +1,73 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+block body
+	section
+		.container-fluid.p-0
+			img.img-fluid(src="./img/img_home.png", alt="")
+	section.home1
+		.container
+			.row
+				.col-sm-8
+					figure
+						img.img-fluid(src="./img/avatar_home.png", alt="")
+				.col-sm-4
+					figure.text_avatar
+						img.img-fluid(src="./img/avatar_home_4.png", alt="")
+						figcaption
+							p.font Cô gái ngàn đô - Úc
+							p $ 360,000 VNĐ
+			.row
+				.col-sm-4
+					figure.text_avatar
+						img.img-fluid(src="./img/avatar_home_1.png", alt="")
+						figcaption
+							p.font Thổi kèn sml
+							p $ 360,000 VNĐ
+				.col-sm-4
+					figure.text_avatar
+						img.img-fluid(src="./img/avatar_home_2.png", alt="")
+						figcaption
+							p.font Nc sml - Úc
+							p $ 500,000 VNĐ
+				.col-sm-4
+					figure.text_avatar
+						img.img-fluid(src="./img/avatar_home_3.png", alt="")
+						figcaption
+							p.font Rên sml 
+							p $ 460,000 VNĐ
+	section.sale
+		.container
+			.row
+				.col
+					h1 Hãy Lựa 1 bé
+			.row
+				.col-sm-6.col-md-3
+					figure.text_sale
+						img.img-fluid(src="./img/ava_home_1.png", alt="")
+						figcaption
+							p.font Ice cream - Sweety Brown
+							p 650,000 VNĐ
+				.col-sm-6.col-md-3
+					figure.text_sale
+						img.img-fluid(src="./img/ava_home_2.png", alt="")
+						figcaption
+							p.font Ice cream - Sweety Brown
+							p 650,000 VNĐ
+				.col-sm-6.col-md-3
+					figure.text_sale
+						img.img-fluid(src="./img/ava_home_3.png", alt="")
+						figcaption
+							p.font Ice cream - Sweety Brown
+							p 650,000 VNĐ
+				.col-sm-6.col-md-3
+					figure.text_sale
+						img.img-fluid(src="./img/ava_home_4.png", alt="")
+						figcaption
+							p.font Ice cream - Sweety Brown
+							p 650,000 VNĐ
+							p.link
+								a(href="#") CONTACT
